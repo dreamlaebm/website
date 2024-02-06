@@ -29,7 +29,7 @@ export default function () {
     <nav className="sticky top-0 z-10 bg-neutral-200 bg-opacity-30 backdrop-filter backdrop-blur-lg border-b border-neutral-300 border-solid shadow-md">
       <div className="max-w-5xl mx-auto px-4 w-full">
         <div className="flex items-center justify-between h-16">
-          <div className="flex flex-row gap-2">
+          <div className="hidden sm:flex flex-row gap-2">
             <Image
               src="https://github.com/dreamlaebm.png"
               alt="Photo"
@@ -46,7 +46,7 @@ export default function () {
           <div className="flex space-x-4 gap-2 text-gray-900">
             <HeaderItem label="About" href="#about" />
             <HeaderItem label="Projects" href="#projects" />
-            <HeaderItem label="Contact us" href="#conta" special />
+            <HeaderItem label="Contact us" href="#contact" special />
           </div>
         </div>
       </div>
