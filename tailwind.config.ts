@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+
+    colors: {
+      "laebm-white": "#ececec",
+      "laebm-pink": "#ca068b",
+      "laebm-blue": "#00a1dc",
+      "laebm-purple": "#943bb9"
+    },
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
