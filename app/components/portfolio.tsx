@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 function Project({
@@ -14,7 +15,11 @@ function Project({
       <Link href={url}>
         <div className="flex flex-col gap-4 items-center rounded-xl">
           <div className="rounded-full p-4">
-            <img src={image} alt={description} className="h-36 rounded-full" />
+            <Image
+              src={image}
+              alt={description}
+              className="h-36 rounded-full"
+            />
           </div>
           <p className="text-black px-4">{description}</p>
         </div>
