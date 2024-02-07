@@ -45,7 +45,7 @@ export default function HeaderBar() {
 
           <div className="flex space-x-4 gap-2 text-gray-900">
             <HeaderItem label="About" href="#about" />
-            <HeaderItem label="Projects" href="#projects" />
+            <HeaderItem label="Projects" href="#portfolio" />
             <HeaderItem label="Contact us" href="#contact" special />
           </div>
         </div>

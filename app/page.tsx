@@ -9,7 +9,7 @@ export default function Home() {
       <Headerbar />
 
       <div id="elementos" className="flex">
-        <div className="flex flex-col w-full justify-center items-center">
+        <div className="p-4 md:p-0 flex flex-col w-full justify-center items-center">
           <About></About>
           <Portfolio></Portfolio>
           <Contact></Contact>
