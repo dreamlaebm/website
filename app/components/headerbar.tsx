@@ -24,7 +24,7 @@ function HeaderItem({
   );
 }
 
-export default function () {
+export default function HeaderBar() {
   return (
     <nav className="sticky top-0 z-10 bg-neutral-200 bg-opacity-30 backdrop-filter backdrop-blur-lg border-b border-neutral-300 border-solid shadow-md">
       <div className="max-w-5xl mx-auto px-4 w-full">
