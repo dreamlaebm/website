@@ -8,13 +8,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
-
-    colors: {
-      "laebm-white": "#ececec",
-      "laebm-pink": "#ca068b",
-      "laebm-blue": "#00a1dc",
-      "laebm-purple": "#943bb9"
-    },
+      spacing: {
+        "148": "1.48em",
+        "120": "1.20em",
+        "100": "1em",
+      },
+      letterSpacing: {
+        "222": "2.22em",
+        "148": "1.48em",
+        "120": "1.20em",
+        "100": "1em",
+      },
+      colors: {
+        "laebm-white": "#ececec",
+        "laebm-pink": "#ca068b",
+        "laebm-blue": "#00a1dc",
+        "laebm-purple": "#943bb9",
+      },
 
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -6,8 +6,7 @@ import Link from "next/link";
 
 import localFont from "@next/font/local";
 
-const inter = Poppins({ weight: "400", subsets: ["latin"] });
-
+const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Laebm",
@@ -21,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${poppins.className}`}>{children}</body>
     </html>
   );
 }

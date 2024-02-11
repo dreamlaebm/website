@@ -3,17 +3,18 @@ import Headerbar from "./components/headerbar";
 import About from "./components/about";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
+import HeaderBar from "./components/headerbar";
+import Showcase from "./components/showcase";
 export default function Home() {
   return (
-    <div className="flex flex-col gap-16">
-      <Headerbar />
+    <div className="">
+      <HeaderBar />
 
-      <div id="elementos" className="flex">
-        <div className="p-4 md:p-0 flex flex-col w-full justify-center items-center">
-          <About></About>
-          <Portfolio></Portfolio>
-          <Contact></Contact>
-        </div>
+      <div className="flex flex-col items-center gap-12 pt-12 grow">
+        <About />
+        <Showcase />
+
+        <Contact />
       </div>
     </div>
   );
