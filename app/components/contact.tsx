@@ -37,12 +37,12 @@ export default function Contact() {
 
       <div className="flex gap-2">
         <span
-          className={`${Monst2.className} text-lg md:text-4xl lg:text-6xl tracking-widest`}
+          className={`${Monst2.className} text-lg md:text-4xl lg:text-5xl tracking-widest xl:text-6xl`}
         >
-          For Free
+          For You, For Free
         </span>
         <span
-          className={`${Monst3.className} text-lg md:text-4xl lg:text-6xl tracking-widest`}
+          className={`${Monst3.className} text-lg md:text-4xl lg:text-5xl xl:text-6xl tracking-widest`}
         >
           until march 6th
         </span>
