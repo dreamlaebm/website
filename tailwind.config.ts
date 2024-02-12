@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import radialGradientPlugin from "./tailwind/plugins/radial_gradient";
 
 const config: Config = {
   content: [
@@ -33,6 +34,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [radialGradientPlugin],
 };
 export default config;
