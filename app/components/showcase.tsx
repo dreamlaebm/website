@@ -137,8 +137,8 @@ function Crowd() {
         
         col-end-5 col-span-4
         md:col-end-6 md:col-span-5
-        lg:col-end-8 lg:col-span-6
-        xl:col-end-10
+        lg:col-end-8 lg:col-span-7
+        xl:col-end-10 xl:col-span-10
         2xl:col-end-12
         "
         >
