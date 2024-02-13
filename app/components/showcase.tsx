@@ -19,13 +19,13 @@ const sizing = `h-[35vh] sm:h-[50vh] w-full`;
 function Sleep() {
   return (
     <div
-      className={`lg:bg-[#693C24] ${sizing} col-span-12 col-start-1 ${grid_config} overflow-hidden grid-rows-1`}
+      className={`md:bg-[#693C24] ${sizing} col-span-12 col-start-1 ${grid_config} overflow-hidden grid-rows-1`}
     >
       <div
         className={`
         col-end-6 col-span-6
-        md:col-end-7 md:col-span-7
-        lg:col-end-9 lg:col-span-4
+        md:col-end-7 md:col-span-4
+        lg:col-end-9 lg:col-span-5
         xl:col-end-11 xl:col-span-5
         2xl:col-end-13 2xl:col-span-6
          
@@ -60,7 +60,7 @@ function Sleep() {
 
         <img
           src="/woman_sleeping.png"
-          className={`${sizing} col-start-1 col-span-6`}
+          className={`${sizing} col-end-6 col-span-6`}
           alt=""
         />
       </div>
@@ -80,13 +80,13 @@ function Sleep() {
 function Crowd() {
   return (
     <div
-      className={`lg:bg-[#67A4C9] ${sizing} col-span-12 col-start-1 ${grid_config} overflow-hidden grid-rows-1`}
+      className={`md:bg-[#67A4C9] ${sizing} col-span-12 col-start-1 ${grid_config} overflow-hidden grid-rows-1`}
     >
       <div
         className={`
         col-start-1 col-span-6
-        md:col-start-1 md:col-span-7
-        lg:col-start-1 lg:col-span-4
+        md:col-start-1 md:col-span-4
+        lg:col-start-1 lg:col-span-5
         xl:col-start-1 xl:col-span-5
         2xl:col-start-1 2xl:col-span-6
          
@@ -174,8 +174,8 @@ function Automated() {
     >
       <div
         className={`col-end-6 col-span-6
-        md:col-end-7 md:col-span-7
-        lg:col-end-9 lg:col-span-4
+        md:col-end-7 md:col-span-4
+        lg:col-end-9 lg:col-span-5
         xl:col-end-11 xl:col-span-5
         2xl:col-end-13 2xl:col-span-6
          
@@ -198,7 +198,7 @@ function Automated() {
 
         <img
           src="/automated.png"
-          className={`${sizing} col-start-1 col-span-5`}
+          className={`${sizing} col-start-1 col-span-6`}
           alt=""
         />
       </div>
