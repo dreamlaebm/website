@@ -29,7 +29,7 @@ const Monst4 = Montserrat({
 
 export default function Contact() {
   return (
-    <div className="w-full">
+    <div id="contact" className="w-full">
       <div className={`${grid_gap_config} ${grid_config} gap-x-5 gap-y-10`}>
         <div className="col-start-1 col-span-12 flex flex-col justify-center items-center bg-[#1D89CC] rounded-xl md:rounded-[50px] py-8">
           <p className={`${text_config} text-white ${Monst} font-bold`}>
@@ -58,11 +58,11 @@ export default function Contact() {
             className="
             bg-black bg-opacity-35 text-white text-3xl text-center py-4 
              flex-1 flex items-center justify-center 
-             rounded-full font-black"
+             rounded-full font-black hover:scale-110 transition-all duration-700 hover:bg-opacity-70"
           >
             Contact us now!
           </Link>
-          <button className="bg-white text-[#5A5AE8] font-bold text-3xl text-center flex-1 py-4 rounded-full">
+          <button className="bg-white text-[#5A5AE8] font-bold text-3xl text-center flex-1 py-4 rounded-full hidden">
             Find out more
           </button>
         </div>

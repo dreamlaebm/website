@@ -66,12 +66,12 @@ function Lazy() {
       />
       <div className={`${grid_config} ${grid_gap_config} h-full relative`}>
         <p
-          className={`col-start-1 col-span-12 text-white ${text_config} absolute top-[10%] ${montserrat_black}`}
+          className={`col-start-1 col-span-12 text-white ${text_config} absolute top-[10%] ${montserrat_black} `}
         >
           And you dont even need to do anything
         </p>
         <p
-          className={`col-start-1 col-span-12 text-white ${small_text_config} absolute bottom-[10%] ${montserrat_black} place-self-end`}
+          className={`col-start-1 col-span-12 text-white ${small_text_config} absolute bottom-[10%] ${montserrat_black} place-self-end hidden md:flex`}
         >
           Seriously, this big boy is one of our clients
         </p>
