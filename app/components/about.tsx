@@ -6,9 +6,9 @@ export default function About() {
   return (
     <div className="flex items-center gap-8">
       <p
-        className={`${montserrat_black.className} text-4xl xl:text-5xl 2xl:text-6xl col-start-6 col-span-2 `}
+        className={`${montserrat_black.className} text-4xl xl:text-5xl 2xl:text-6xl col-start-6 col-span-2 text-white `}
       >
-        IMAGINE
+        OUR WEBSITES ARE
       </p>
       {/* <div className={`col-start-3 col-span-8 grid grid-cols-8 gap-36`}>
         <p className={`${montserrat_black.className} text-6xl`}>I</p>

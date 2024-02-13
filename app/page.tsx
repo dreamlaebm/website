@@ -10,7 +10,7 @@ export default function Home() {
     <div className="">
       <HeaderBar />
 
-      <div className="flex flex-col items-center gap-12 pt-12 grow">
+      <div className="flex flex-col items-center gap-12 pt-12 mb-20 grow">
         <About />
         <Showcase />
 
