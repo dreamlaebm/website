@@ -19,7 +19,7 @@ const sizing = `h-[35vh] sm:h-[50vh] w-full`;
 function Sleep() {
   return (
     <div
-      className={`md:bg-[#693C24] ${sizing} col-span-12 col-start-1 ${grid_config} overflow-hidden grid-rows-1`}
+      className={`md:bg-[#490099] ${sizing} col-span-12 col-start-1 ${grid_config} overflow-hidden grid-rows-1`}
     >
       <div
         className={`
@@ -36,8 +36,8 @@ function Sleep() {
             col-start-1 col-span-5 md:col-span-3
 
             bg-radient-ellipse-c 
-            md:bg-gradient-to-r from-[#693C234d] to-[#693C23cc] to-80%
-            md:to-transparent md:from-[#693C23]
+            md:bg-gradient-to-r from-[#49009900] to-[#490099cc] to-80%
+            md:from-[#490099] md:to-[#5811A600]
             absolute top-0 w-full h-full
           
           `}
@@ -49,8 +49,8 @@ function Sleep() {
             col-start-1 col-span-5 md:col-span-3
 
             bg-radient-ellipse-c 
-            md:bg-gradient-to-r from-[#693C234d] to-[#693C23cc]
-            md:to-transparent md:from-[#693C23]
+            md:bg-gradient-to-r from-[#49009900] to-[#490099cc] to-80%
+            md:from-[#490099] md:to-[#5811A600]
             absolute top-0 w-full h-full
           
           `}
@@ -68,7 +68,7 @@ function Sleep() {
         className={`${grid_config} col-start-1 col-span-12 mx-3 md:mx-14 relative ${sizing}`}
       >
         <p
-          className={`${text_config}  absolute top-10 md:top-20 ${montserrat_black.className} text-[#F0B58D]`}
+          className={`${text_config}  absolute top-10 md:top-20 ${montserrat_black.className} text-[#AF66FF]`}
         >
           Selling in your sleep
         </p>
