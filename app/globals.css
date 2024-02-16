@@ -10,4 +10,12 @@
   .text-balance {
     text-wrap: balance;
   }
+
+  .showcase-clip  {
+
+    clip-path: polygon(72% 0, 100% 0, 100% 100%, 0 100%);
+
+  }
+ 
+ 
 }

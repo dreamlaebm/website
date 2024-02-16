@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import HeaderLogo from "./headerlogo";
+import { grid_config, grid_gap_config } from "../ui_config/grid";
 
 function HeaderItem({
   href,
@@ -27,12 +27,14 @@ function HeaderItem({
 
 export default function HeaderBar() {
   return (
-    <nav className="col-span-12 flex gap-8 bg-[#BFBEBE] h-16 shadow-2xl bg-opacity-70 rounded-b-2xl sm:px-8 items-center justify-between p-2">
-      <HeaderLogo />
-
-      <div className="flex flex-row gap-8">
-        <HeaderItem label="Contact us" href="#contact" special />
-      </div>
-    </nav>
+    <div className="absolute top-0 left-0 w-full z-40">
+      <nav
+        className={`${grid_config} ${grid_gap_config} h-16 sm:h-24 place-content-center`}
+      >
+        <Link href="/">
+          <p className="col-start-1 text-[#DBEAED] text-3xl">Laebm</p>
+        </Link>
+      </nav>
+    </div>
   );
 }

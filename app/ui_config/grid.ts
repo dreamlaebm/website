@@ -13,3 +13,10 @@ export const grid_gap_config = `
     xl:mx-14
     2xl:mx-16
 `;
+
+export const grid_gap_nomobile_config = `
+    md:mx-10
+    lg:mx-12
+    xl:mx-14
+    2xl:mx-16
+`;
