@@ -2,7 +2,7 @@ import HeaderBar from "../components/headerbar";
 import Showcase from "./showcase";
 import { grid_config } from "../ui_config/grid";
 
-export default function () {
+export default function Page() {
   return (
     <>
       <div className="absolute h-full w-full">
